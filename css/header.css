@@ -1,0 +1,29 @@
+/*CABECERA*/
+.header-cabecera{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    
+    background: #3586ff;
+}
+
+.header-cabecera img{
+    padding: 0 30px;
+    height: 100px;
+}
+
+.header-cabecera p{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ubiquiti{
+    width: 150px; 
+}
+
+.antenagif{
+    width: 150px; 
+}
+/*CABECERA*/

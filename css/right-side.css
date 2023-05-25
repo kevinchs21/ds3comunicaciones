@@ -1,0 +1,68 @@
+/*listas precios*/
+.lista{
+    position: relative;
+}
+
+.listas-precios, .listas-adaptadores, .listas-antenas{  
+    margin-left: 10px;
+    width: 300px;
+}
+
+.listas-precios h4,
+.listas-adaptadores h4,
+.listas-antenas h4
+{
+    font-weight: bold;
+    margin: 2px 0 5px 0;
+    padding-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+
+.listas-precios:hover .items-pr,
+.listas-adaptadores:hover .items-pr ,
+.listas-antenas:hover .items-pr {
+    display: block;
+    
+}
+
+.listas-adaptadores:hover  h3,
+.listas-antenas:hover h3 {
+    display: block;
+}
+
+.items-pr,
+.listas-adaptadores h3,
+.listas-antenas h3 {
+   list-style:none;
+   display: none;
+   left: 0;
+   padding-top: 0.25rem;
+   animation-duration: 1s;
+  animation-name: slidein;
+    font-weight: 600;
+}
+
+@keyframes slidein {
+    from {
+      margin-bottom: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-bottom: 0%;
+      width: 100%;
+    }
+  }
+
+.items-pr a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.items-pr a:hover{
+    color: #c78c19;
+    text-decoration: underline;  
+}
+

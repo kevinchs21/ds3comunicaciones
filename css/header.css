@@ -1,4 +1,4 @@
-/*CABECERA*/
+/*CABECERA
 .header-cabecera{
     display: flex;
     height: 150px;
@@ -26,7 +26,7 @@
 .antenagif{
     width: 150px; 
 }
-/*CABECERA*/
+CABECERA*/
 .container {
     max-width: 1200px;
     margin: 0 auto;

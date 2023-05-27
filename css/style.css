@@ -1,8 +1,6 @@
-body,html{
-   
-}
+
 body{
-    font-family: 'Montserrat', sans-serif;
+    
     font-family: 'Poppins', sans-serif;
 }
 
@@ -13,23 +11,8 @@ body{
 }
 /*MAIN*/
 
-@media screen and (max-width:480px) {
-  
-    .cabecera{
-        width: 1300px;
-        padding: 0 auto;
-    }
-    .enlaces{
-        width:100%;
-    }
-    .routers{
-        width: 700px;
-    }
-    .marcas-productos{
-        top: 200px;
-    }
-    .titulo-producto, .caracteristicas, .descripcion{
-        width: 550px;
-    }
+@media screen and (min-width:768px) {
+
+
    
 }

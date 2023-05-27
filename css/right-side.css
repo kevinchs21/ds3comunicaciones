@@ -1,11 +1,13 @@
 /*listas precios*/
 .lista{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
 }
 
 .listas-precios, .listas-adaptadores, .listas-antenas{  
     margin-left: 10px;
-    width: 300px;
+    width: 250px;
 }
 
 .listas-precios h4,
@@ -35,12 +37,12 @@
 .items-pr,
 .listas-adaptadores h3,
 .listas-antenas h3 {
-   list-style:none;
-   display: none;
-   left: 0;
-   padding-top: 0.25rem;
-   animation-duration: 1s;
-  animation-name: slidein;
+    list-style:none;
+    display: none;
+    left: 0;
+    padding-top: 0.25rem;
+    animation-duration: 1s;
+    animation-name: slidein;
     font-weight: 600;
 }
 
@@ -66,3 +68,9 @@
     text-decoration: underline;  
 }
 
+@media only screen and (max-width: 768px) {
+    .listas-precios, .listas-adaptadores, .listas-antenas{  
+      width: 200px;
+    }
+    
+}

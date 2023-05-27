@@ -37,3 +37,11 @@
     transform: scale(1.5); 
 }
 /*MARCAS PRODUCTOS*/
+/*
+@media screen and (min-width:768px) {
+    .marcas-productos{
+        display:none ;
+
+    }
+
+}*/

@@ -43,3 +43,18 @@
     background-color: aqua;
 }
 /*FORMULARIO*/
+
+@media screen and (max-width:768px) {
+    .formulario-enlaces{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .busqueda{
+        margin-top: 10px;
+    }
+ 
+   
+  }

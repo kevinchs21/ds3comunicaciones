@@ -82,3 +82,11 @@ CABECERA*/
   }
 
   
+  @media screen and (max-width:768px) {
+    .nav .container {
+      display: flex;
+      justify-content: center;
+    }
+ 
+   
+  }

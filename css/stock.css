@@ -1,28 +1,32 @@
 /*STOCK*/
 .stock{
-    display: flex;
-    flex-direction: column;
     padding-top: 15px;
     padding-bottom: 50px;
 }
+
 .stock-cards{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    
     justify-content: center;
     align-items: center;
 }
+
 .cards{
     display: flex;
     flex-direction: row;
-    gap: 40px 30px;
+    gap: 10px 0px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 70%;
 }
+
 .card{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .stock img{
@@ -35,8 +39,8 @@
 }
 
 .stock p{
-    text-align: justify; 
-    width: 100px;
+    text-align: center; 
+    width: 150px;
     height: 70px;
     font-size:11px;
     padding-top:5px;
@@ -65,8 +69,13 @@
 
 /*STOCK*/
 
-@media screen and (min-width:768px) {
+@media screen and (max-width:767px) {
    
-  
+  .cards{
+    width: 100%;
+  }
+  .productos{
+    width: 100%;
+  }
     
 }
